@@ -1,7 +1,7 @@
 {
     "app-id": "io.github.kaschpal.timetable",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.36",
+    "runtime-version": "40",
     "sdk": "org.gnome.Sdk",
     "command": "timetable",
     "finish-args": [
@@ -33,7 +33,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/kaschpal/timetable",
-                    "commit": "6f886710ebd05f23738cc1e77c944a57b01b6ee8"
+                    "commit": "6a12bdb642fd5fab083df89c6fe1d73a8fe429e5"
                 }
             ]
         }

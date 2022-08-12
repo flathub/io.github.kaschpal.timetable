@@ -1,7 +1,7 @@
 {
     "app-id": "io.github.kaschpal.timetable",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "40",
+    "runtime-version": "42",
     "sdk": "org.gnome.Sdk",
     "command": "timetable",
     "finish-args": [
@@ -23,8 +23,7 @@
         "*.a"
     ],
     "modules": [
-    	"python3-python-dateutil.json",
-    	"python3-mallard-ducktype.json",
+        "python3-modules.json",
         {
             "name": "timetable",
             "builddir": true,
@@ -32,7 +31,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://github.com/kaschpal/timetable",
+                    "url": "https://github.com/kaschpal/timetable.git",
                     "commit": "6a12bdb642fd5fab083df89c6fe1d73a8fe429e5"
                 }
             ]

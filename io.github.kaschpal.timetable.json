@@ -34,6 +34,10 @@
                     "type": "git",
                     "url": "https://github.com/kaschpal/timetable.git",
                     "commit": "6a12bdb642fd5fab083df89c6fe1d73a8fe429e5"
+                },
+                {
+                    "type": "patch",
+                    "path": "fix-appdata.patch"
                 }
             ]
         }

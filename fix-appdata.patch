@@ -1,0 +1,37 @@
+From e62cdbfa75bb7502c187c3c6d945291e62938105 Mon Sep 17 00:00:00 2001
+From: Sabri Ünal <yakushabb@gmail.com>
+Date: Wed, 14 Jan 2026 02:50:38 +0300
+Subject: [PATCH] Fix appdata paper cuts
+
+---
+ data/io.github.kaschpal.timetable.appdata.xml.in | 2 ++
+ data/io.github.kaschpal.timetable.desktop.in     | 2 +-
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+
+diff --git a/data/io.github.kaschpal.timetable.appdata.xml.in b/data/io.github.kaschpal.timetable.appdata.xml.in
+index 06063d5..300f914 100644
+--- a/data/io.github.kaschpal.timetable.appdata.xml.in
++++ b/data/io.github.kaschpal.timetable.appdata.xml.in
+@@ -7,6 +7,8 @@
+   <project_license>GPL-3.0-or-later</project_license>
+   <content_rating type="oars-1.0" />
+   <url type="homepage">https://github.com/kaschpal/timetable</url>
++  <url type="bugtracker">https://github.com/kaschpal/timetable/issues</url>
++  <url type="vcs-browser">https://github.com/kaschpal/timetable</url>
+   <description>
+     <p>
+      Timetable imitates a classic calendar/planner for teachers.
+diff --git a/data/io.github.kaschpal.timetable.desktop.in b/data/io.github.kaschpal.timetable.desktop.in
+index 0314ce8..5b6c084 100644
+--- a/data/io.github.kaschpal.timetable.desktop.in
++++ b/data/io.github.kaschpal.timetable.desktop.in
+@@ -4,5 +4,5 @@ Icon=io.github.kaschpal.timetable
+ Exec=timetable
+ Terminal=false
+ Type=Application
+-Categories=GTK;
++Categories=GTK;Utility;
+ StartupNotify=true
+--
+libgit2 1.7.2
+
